@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "be-decorated": "0.0.125",
+    "be-hive": "0.0.48"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bahrus/be-focused.git"
