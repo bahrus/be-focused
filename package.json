@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test-all.js",
+    "package-check": "package-check",
+    "serve": "node node_modules/may-it-serve/serve.js"
   },
   "dependencies": {
     "be-decorated": "0.0.125",
     "be-hive": "0.0.48"
+  },
+  "devDependencies": {
+    "may-it-serve": "0.0.0",
+    "@skypack/package-check": "0.2.2"
   },
   "repository": {
     "type": "git",
