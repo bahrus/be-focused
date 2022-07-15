@@ -6,6 +6,8 @@
 
 ... sets the focus on the button when the behavior attaches.
 
+This  is useful when HTML is added [post page-load](https://stackoverflow.com/questions/27313872/auto-focus-is-not-working-for-input-field).
+
 ## Setting focus on an element within [TODO]
 
 ```html
