@@ -3,7 +3,9 @@ import {define, BeDecoratedProps} from 'be-decorated/be-decorated.js';
 import {BeFocusedActions, BeFocusedProps, BeFocusedVirtualProps} from './types'; 
 
 export class BeFocused implements BeFocusedActions{
-
+    intro(proxy: HTMLElement & BeFocusedVirtualProps, target: HTMLElement, beDecorProps: BeDecoratedProps<any, any>): void {
+        proxy.focus();
+    }
 }
 
 export interface BeFocused extends BeFocusedProps{}
@@ -19,8 +21,9 @@ define<BeFocusedProps & BeDecoratedProps<BeFocusedProps, BeFocusedActions>, BeFo
         tagName,
         propDefaults:{
             ifWantsToBe,
+            upgrade,
             virtualProps: [],
-
+            intro: 'intro',
         },
         actions:{
 

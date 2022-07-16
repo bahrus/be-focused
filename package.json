@@ -13,7 +13,7 @@
     "be-hive": "0.0.48"
   },
   "devDependencies": {
-    "may-it-serve": "0.0.0",
+    "may-it-serve": "0.0.1",
     "@skypack/package-check": "0.2.2"
   },
   "repository": {
