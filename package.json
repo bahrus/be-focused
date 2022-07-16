@@ -1,8 +1,24 @@
 {
   "name": "be-focused",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "keywords": [
+    "web-components",
+    "web-component",
+    "custom-element",
+    "custom-elements"
+  ],
+  "description": "Set focus on an element.",
+  "main": "be-focused.js",
+  "module": "be-focused.js",
+  "type": "module",
+  "exports": {
+    ".": "./be-focused.js",
+    "./be-focused.js": "./be-focused.js"
+  },
+  "files": [
+    "*.*"
+  ],
+  "types": "types.d.ts",
   "scripts": {
     "test": "node test/test-all.js",
     "package-check": "package-check",

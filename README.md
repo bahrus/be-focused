@@ -1,4 +1,4 @@
-# be-focused [TODO]
+# be-focused
 
 ```html
 <button be-focused></button>
