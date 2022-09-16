@@ -25,8 +25,8 @@
     "serve": "node node_modules/may-it-serve/serve.js"
   },
   "dependencies": {
-    "be-decorated": "0.0.125",
-    "be-hive": "0.0.48"
+    "be-decorated": "0.0.157",
+    "be-hive": "0.0.65"
   },
   "devDependencies": {
     "may-it-serve": "0.0.1",
@@ -36,7 +36,7 @@
     "type": "git",
     "url": "git+https://github.com/bahrus/be-focused.git"
   },
-  "author": "",
+  "author": "Bruce B Anderson <anderson.bruce.b@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bahrus/be-focused/issues"

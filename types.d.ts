@@ -1,14 +1,15 @@
-import {BeDecoratedProps} from 'be-decorated/types';
+import {BeDecoratedProps, MinimalProxy} from 'be-decorated/types';
 
-export interface BeFocusedVirtualProps{
-
+export interface VirtualProps extends MinimalProxy{
 }
 
-export interface BeFocusedProps extends BeFocusedVirtualProps{
-    proxy: HTMLElement & BeFocusedVirtualProps;
+export type Proxy = HTMLElement & VirtualProps;
+
+export interface ProxyProps extends VirtualProps{
+    proxy: Proxy;
 }
 
-export interface BeFocusedActions{
-    intro(proxy: HTMLElement & BeFocusedVirtualProps, target: HTMLElement, beDecorProps: BeDecoratedProps): void;
+export interface Actions{
+    intro(proxy: Proxy, target: HTMLElement, beDecorProps: BeDecoratedProps): void;
 }
 

@@ -9,7 +9,7 @@
 		"strict": true,
 	},
 	"files":[
-		"be-focused"
+		"be-focused.ts"
 	],
 	"exclude":[
 		"build",

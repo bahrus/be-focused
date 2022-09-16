@@ -1,14 +1,14 @@
 import {register} from 'be-hive/register.js';
 import {define, BeDecoratedProps} from 'be-decorated/be-decorated.js';
-import {BeFocusedActions, BeFocusedProps, BeFocusedVirtualProps} from './types'; 
+import {Actions, ProxyProps, VirtualProps, Proxy} from './types'; 
 
-export class BeFocused implements BeFocusedActions{
-    intro(proxy: HTMLElement & BeFocusedVirtualProps, target: HTMLElement, beDecorProps: BeDecoratedProps<any, any>): void {
+export class BeFocused implements Actions{
+    intro(proxy: Proxy, target: HTMLElement, beDecorProps: BeDecoratedProps<any, any>): void {
         proxy.focus();
     }
 }
 
-export interface BeFocused extends BeFocusedProps{}
+export interface BeFocused extends ProxyProps{}
 
 const tagName = 'be-focused';
 
@@ -16,7 +16,7 @@ const ifWantsToBe = 'focused';
 
 const upgrade = '*';
 
-define<BeFocusedProps & BeDecoratedProps<BeFocusedProps, BeFocusedActions>, BeFocusedActions>({
+define<ProxyProps & BeDecoratedProps<ProxyProps, Actions>, Actions>({
     config:{
         tagName,
         propDefaults:{
