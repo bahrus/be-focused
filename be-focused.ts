@@ -1,5 +1,5 @@
 import {register} from 'be-hive/register.js';
-import {define, BeDecoratedProps} from 'be-decorated/be-decorated.js';
+import {define, BeDecoratedProps} from 'be-decorated/DE.js';
 import {Actions, ProxyProps, VirtualProps, Proxy} from './types'; 
 
 export class BeFocused implements Actions{
