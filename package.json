@@ -10,7 +10,6 @@
   "description": "Set focus on an element.",
   "main": "be-focused.js",
   "module": "be-focused.js",
-  "type": "module",
   "exports": {
     ".": "./be-focused.js",
     "./be-focused.js": "./be-focused.js"
@@ -20,16 +19,18 @@
   ],
   "types": "types.d.ts",
   "scripts": {
-    "test": "node test/test-all.js",
+    "test": "playwright test",
     "package-check": "package-check",
     "serve": "node node_modules/may-it-serve/serve.js"
   },
   "dependencies": {
-    "be-decorated": "0.0.157",
-    "be-hive": "0.0.65"
+    "be-decorated": "0.0.171",
+    "be-hive": "0.0.73"
+    
   },
   "devDependencies": {
-    "may-it-serve": "0.0.1",
+    "may-it-serve": "0.0.3",
+    "@playwright/test": "1.27.1",
     "@skypack/package-check": "0.2.2"
   },
   "repository": {

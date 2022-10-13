@@ -40,6 +40,8 @@ This  is useful when HTML is added [post page-load](https://stackoverflow.com/qu
 }'>
 ```
 
+## Media query support [TODO]
+
 
 
 
