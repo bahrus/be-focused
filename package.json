@@ -1,6 +1,6 @@
 {
   "name": "be-focused",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "web-components",
     "web-component",
@@ -26,7 +26,6 @@
   "dependencies": {
     "be-decorated": "0.0.171",
     "be-hive": "0.0.73"
-    
   },
   "devDependencies": {
     "may-it-serve": "0.0.3",
