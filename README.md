@@ -1,5 +1,7 @@
 # be-focused
 
+[![Playwright Tests](https://github.com/bahrus/be-focused/actions/workflows/CI.yml/badge.svg?branch=baseline)](https://github.com/bahrus/be-focused/actions/workflows/CI.yml)
+
 ```html
 <button be-focused></button>
 ```
