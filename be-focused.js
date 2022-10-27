@@ -10,7 +10,6 @@ define({
     config: {
         tagName,
         propDefaults: {
-            virtualProps: [],
             intro: 'intro',
         },
     },

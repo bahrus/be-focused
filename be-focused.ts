@@ -13,7 +13,6 @@ define<ProxyProps & BeDecoratedProps<ProxyProps, Actions>, Actions>({
     config:{
         tagName,
         propDefaults:{
-            virtualProps: [],
             intro: 'intro',
         },
     },
