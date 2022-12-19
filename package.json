@@ -24,12 +24,12 @@
     "serve": "node node_modules/may-it-serve/serve.js"
   },
   "dependencies": {
-    "be-decorated": "0.0.190",
-    "be-hive": "0.0.77"
+    "be-decorated": "0.0.207",
+    "be-hive": "0.0.78"
   },
   "devDependencies": {
-    "may-it-serve": "0.0.3",
-    "@playwright/test": "1.27.1",
+    "may-it-serve": "0.0.4",
+    "@playwright/test": "1.29.0",
     "@skypack/package-check": "0.2.2"
   },
   "repository": {
